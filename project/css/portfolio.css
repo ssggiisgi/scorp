@@ -1,0 +1,277 @@
+.popup{
+    display: none; /*평소에는 보이지 않도록*/
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index:2;
+}
+.popup.on{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popupbox{
+    padding: 30px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(240, 240, 240) 50%, white 50%);
+    width:100%;
+    max-width: 1200px;
+}
+.popup button{
+    display: block;
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.popup .icon{
+    color:#4e5758;
+    font-size: 25px;
+}
+.popup .icon:hover{
+    color:#979797;
+}
+.popup .popupcontent{
+    display: flex;
+}
+.popup .popup-left{
+    width:50%;
+    padding-right: 30px;
+    padding-bottom: 32px;
+}
+.popup-left img{
+    width:100%;
+    box-shadow: 0px 5px 16px rgba(83, 82, 82, 0.459);
+}
+.popup-right{
+    font-weight: 600;
+    font-family: 'Hygraphic',sans-serif;
+    width:50%;
+    padding-left: 30px;
+}
+.popup-right h3{
+    color:#2e3334;
+    font-size: 28px;
+    text-shadow: 0px 0px 1px #000000;
+    padding-bottom: 14px;
+    margin-bottom:14px;
+    margin-right:14px;
+    border-bottom: 1px #d0d0d0 solid;
+}
+.popup-right p{
+    font-size: 18px;
+    line-height:1.9;
+    letter-spacing: -0.04rem;
+    color:#4e5758;
+}
+
+
+.port-sec1 .slant-parent{
+    height: 450px;
+    overflow: hidden;
+    transform: skewY(-7deg);
+    transform-origin: 0 100%;
+}
+.port-sec1 .slant{
+    height: 450px;
+    background-image: url(../images/home-3-back.webp);
+    box-shadow: inset -400px 100px 200px rgba(0, 0, 0, 0.658),
+    inset 150px 70px 120px rgba(0, 0, 0, 0.825);
+    transform-origin: 0 100%;
+    z-index: -90;
+    background-position: 40% 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    transform: skewY(+7deg);
+}
+.port-sec1 .container{
+    color:white;
+}
+
+.port-sec1 .container h1{
+    position:absolute;
+    top:25%;
+    font-family: 'Broadway', sans-serif;
+    font-weight: 100;
+    letter-spacing: -0.08rem;
+    font-size:66px;
+}
+.port-sec1 .text-box{
+    color:#4e5758;
+    font-size:20px;
+    font-family: "Hygraphic", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.06rem;
+    margin:55px 0px 80px 0px ;
+    line-height: 1.45;
+}
+
+.port-sec2{
+    background-color: rgb(247, 247, 247);
+    background-image: linear-gradient(#f4f4f4 0%, #fcfcfc 10%);
+    background-repeat: repeat-x, repeat;
+    background-position: 0 0, 0 0;
+    background-size: auto, auto;
+    width: 100%;
+    padding: 6% 0% 8%  0%;
+}
+.port-sec2 .filter-menu {
+    display: flex;
+    background: #f0f0f0;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 3px 3px;
+    width:fit-content;
+    margin-left: 20px;
+}
+
+.port-sec2 .container button{
+    font-size:16px;
+    font-family: "Hygraphic", sans-serif;
+    font-weight: 600;
+    color:#2e3334;
+    background: transparent;
+    padding: 9.5px 28px;
+    border: none;
+    cursor: pointer;
+    width:128px;
+}
+.port-sec2 .container button:hover{
+    border-radius: 6px;
+    background: #e8e8e8;
+    z-index:1;
+    transition: 0.2s;
+}
+.port-sec2 .container button.active{
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    z-index:1;
+}
+.port-sec2 .filter-menu button + button {
+    position:relative;
+}
+.port-sec2 .filter-menu button + button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 25%;
+    height: 50%;   /* 선의 길이를 줄임 (텍스트 영역만큼) */
+    width: 1.5px;
+    background: #e8e8e8;
+    z-index:0;
+}
+.port-sec2 .content-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.port-sec2 .content{
+    width:30%;
+    margin: 0px 1.6%;
+    margin-top: 40px; 
+    box-shadow: 0 8px 20px rgba(46, 51, 52, .15);
+    border-radius:15px;
+}
+
+.port-sec2 .content:hover{
+    background-color: #f4f4f4;
+    box-shadow: 0 3px 16px rgba(46, 51, 52, 0.247);
+}
+
+.port-sec2 .content img{
+    width: 100%;
+    height:250px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.port-sec2 .content .text{
+    padding:7%;
+    font-family:"Hygraphic", sans-serif;
+    font-weight: 600;
+}
+
+.port-sec2 .content h2{
+    color: #2e3334;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+/*반응형*/
+@media (max-width:768px) {
+    /* ======= port-sec1 ======= */
+    .port-sec1 .slant-parent {
+    height: 300px;
+    }
+    .port-sec1 .slant {
+    height: 300px;
+    box-shadow: none;
+    background-size: 152%;
+    background-position:0% 20%;
+    }
+    .port-sec1 .container h1 {
+    position: absolute;
+    top:140px;
+    font-size: 42px;
+    letter-spacing: 0rem;
+    justify-self: center;
+}
+    .port-sec1 .text-box {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 45px;
+    }
+    /* ======= port-sec2 ======= */
+    .port-sec2 {
+    padding: 12% 0;
+    }
+    /* 필터 버튼 전체를 세로(column) 정렬 */
+    .port-sec2 .filter-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding:8px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .port-sec2 .filter-menu button {
+    width: 100%;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    background-color: #e3e3e3;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+    }
+    .port-sec2 .filter-menu button:last-child {
+    margin-bottom: 0;
+    }
+  /* 버튼 사이 구분선 제거 */
+    .port-sec2 .filter-menu button + button::before {
+    display: none;
+    }
+  /* 콘텐츠: 1열 카드 */
+    .port-sec2 .content-list {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    }
+    .port-sec2 .content {
+    width: 100%;
+    margin: 30px 0px 15px 0px;
+    }
+    .port-sec2 .content .text{
+    padding: 6%;
+    font-size: 18px;
+    }
+}
