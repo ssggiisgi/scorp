@@ -1,0 +1,231 @@
+.ser-sec1 .slant-parent{
+    height: 450px;
+    overflow: hidden;
+    transform: skewY(-7deg);
+    transform-origin: 0 100%;
+}
+
+.ser-sec1 .slant{
+    height: 450px;
+    background-image: url(../images/home-3-back.webp);
+    box-shadow: inset -400px 100px 200px rgba(0, 0, 0, 0.658),
+    inset 130px 70px 120px rgba(0, 0, 0, 0.825);
+    transform-origin: 0 100%;
+    z-index: -90;
+    background-position: 40% 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    transform: skewY(+7deg);
+}
+.ser-sec1 .container{
+    color:white;
+}
+.ser-sec1 .container h1{
+    position:absolute;
+    top:25%;
+    font-family: 'Broadway', sans-serif;
+    font-weight: 100;
+    letter-spacing: -0.08rem;
+    font-size:66px;
+}
+.ser-sec1 .text-box{
+    color:#4e5758;
+    font-size:20px;
+    font-family: "Hygraphic", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.06rem;
+    margin:55px 0px 80px 0px ;
+    line-height: 1.45;
+}
+
+.ser-sec2{
+    background-color: rgb(247, 247, 247);
+    background-image:  linear-gradient(#f4f4f4 0%, #fcfcfc 10%);
+    background-repeat: repeat-x, repeat;
+    background-position: 0 0, 0 0;
+    background-size: auto, auto;
+    width: 100%;
+    padding: 6% 0% 6% 0%;
+}
+.ser-sec2 .filter-menu {
+    display: flex;
+    background: #f0f0f0;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 3px 3px;
+    width:auto;
+    margin-bottom: 40px;
+}
+
+.ser-sec2 .container button{
+    font-size:16px;
+    font-family: "Hygraphic", sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.02rem;
+    color:#2e3334;
+    background: transparent;
+    padding: 11px 0px 9px 0px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+.ser-sec2 .container button:hover{
+    border-radius: 6px;
+    background: #e8e8e8;
+    z-index:1;
+    transition: 0.2s;
+}
+.ser-sec2 .container button.active{
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    z-index:1;
+}
+.ser-sec2 .filter-menu button + button {
+    position:relative;
+}
+.ser-sec2 .filter-menu button + button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 25%;
+    height: 50%;   /* 선의 길이를 줄임 (텍스트 영역만큼) */
+    width: 1.5px;
+    background: #cdcdcd;
+    z-index:0;
+}
+.ser-sec2 .content-list{
+    display: flex;
+    justify-content: space-between;
+}
+.ser-sec2 .content{
+    width:31%;
+    border-radius:15px;
+}
+.ser-sec2 .content img{
+    width: 100%;
+    height:210px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 11px rgba(40, 40, 40, 0.182);
+}
+.ser-sec2 .content .img-box2 img{
+    width: 100%;
+    height:445px;
+    border-radius: 15px;
+}
+.ser-sec2 .content .img2{
+    margin-top: 20px;
+}
+
+.ser-sec2 .content .text-box{
+    padding:7% 1%;
+    font-family:"Hygraphic", sans-serif;
+    font-weight: 600;
+}
+
+.ser-sec2 .content h3{
+    text-shadow: 0px 0px 0px black;
+    color: #2e3334;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+    margin-bottom: 6px;
+    font-size:16px;
+}
+.ser-sec2 .content .icon{
+    margin-right:5px;
+    font-size: 18px;
+    color: #12b06e;
+}
+
+.ser-sec2 .content p{
+    font-size: 16px;
+    color:#4e5758;
+    padding-top:8px;
+    padding-bottom: 8px;
+    line-height:1.6rem;
+    border-bottom: 1px dashed #d3d3d3;
+}
+
+/*반응형*/
+@media (max-width: 768px) {
+
+  /* ======= ser-sec1 ======= */
+    .ser-sec1 .slant-parent {
+    height: 300px;
+    }
+    .ser-sec1 .slant {
+    height: 300px;
+    box-shadow: none;
+    background-size: 152%;
+    background-position:0% 20%;
+    }
+    .ser-sec1 .container h1 {
+    position: absolute;
+    top:140px;
+    font-size: 42px;
+    letter-spacing: 0rem;
+    justify-self: center;
+}
+    .ser-sec1 .text-box {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 45px;
+    }
+
+  /* ======= ser-sec2 ======= */
+    .ser-sec2 {
+    padding: 12% 0;
+    }
+    /* 필터 버튼 전체를 세로(column) 정렬 */
+    .ser-sec2 .filter-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding:8px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .ser-sec2 .filter-menu button {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+    border: none;
+    background-color: #e3e3e3;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+    }
+    .ser-sec2 .filter-menu button:last-child {
+    margin-bottom: 0;
+    }
+  /* 버튼 사이 구분선 제거 */
+    .ser-sec2 .filter-menu button + button::before {
+    display: none;
+    }
+  /* 콘텐츠: 1열 카드 */
+    .ser-sec2 .content-list {
+    flex-direction: column;
+    align-items: center;
+    }
+    .ser-sec2 .content {
+    width: 100%;
+    margin-top: 30px;
+    }
+    .ser-sec2 .content .text-box {
+    padding: 5% 3%;
+    }
+    .ser-sec2 .content h3 {
+    font-size: 18px;
+    white-space: normal;
+    }
+    .ser-sec2 .content p {
+    font-size: 15px;
+    line-height: 1.6;
+    }
+    .ser-sec2 .content .img2{
+        margin: 30px 0px 10px 0px;
+    }
+}
