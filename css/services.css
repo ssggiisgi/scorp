@@ -159,13 +159,13 @@
     .ser-sec1 .slant {
     height: 300px;
     box-shadow: none;
-    background-size: 152%;
-    background-position:0% 20%;
+    background-size: 154%;
+    background-position:5% 21%;
     }
     .ser-sec1 .container h1 {
     position: absolute;
     top:140px;
-    font-size: 42px;
+    font-size: 38px;
     letter-spacing: 0rem;
     justify-self: center;
 }

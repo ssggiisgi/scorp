@@ -19,6 +19,7 @@
     background-image: linear-gradient(to right, rgb(240, 240, 240) 50%, white 50%);
     width:100%;
     max-width: 1200px;
+    overflow-y: auto;
 }
 .popup button{
     display: block;
@@ -199,6 +200,7 @@
 
 .port-sec2 .content h2{
     color: #2e3334;
+    text-shadow: 0px 0px 0px black;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;  
@@ -208,20 +210,51 @@
 
 /*반응형*/
 @media (max-width:768px) {
+    /* ======= popup ======= */
+    .popupbox{
+        background: white;
+        padding:24px;
+    }
+    .popup .popupcontent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .popup .icon{
+        font-size: 22px;
+    }
+    .popup .popup-left,
+    .popup .popup-right{
+        width:100%;
+        padding:0px;
+        align-items: center;
+    }
+    .popup .popup-left{
+        height:35%;
+    }
+    .popup-right h3{
+        font-size: 20px;
+        margin:14px 0px 14px 0px;
+        padding:14px 0px 14px 0px;
+        line-height: 1.4;
+        border-top: 1px #d0d0d0 solid;
+    }
+    .popup-right p{
+        font-size: 15px;
+    }
     /* ======= port-sec1 ======= */
     .port-sec1 .slant-parent {
-    height: 300px;
+    height: 300px
     }
     .port-sec1 .slant {
     height: 300px;
     box-shadow: none;
-    background-size: 152%;
-    background-position:0% 20%;
+    background-size: 154%;
+    background-position:5% 21%;
     }
     .port-sec1 .container h1 {
     position: absolute;
     top:140px;
-    font-size: 42px;
+    font-size: 38px;
     letter-spacing: 0rem;
     justify-self: center;
 }

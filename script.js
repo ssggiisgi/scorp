@@ -1,6 +1,8 @@
 //preload for background image//
 const images = [
-    "images/home-3-back.webp"
+    "images/home-3-back.webp",
+    "images/globe.webp",
+    "images/archi-logo.webp"
 ];
 const preload = (images) => {
     images.forEach((image) => {
