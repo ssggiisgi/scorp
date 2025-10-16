@@ -1,15 +1,15 @@
 
 @font-face {
     font-family: 'Broadway';
-    src: url('../broadway.TTF') format('truetype'),
-        url('../broadway.woff2') format('woff2');
+    src: url('../font/broadway.woff2') format('woff2'),
+    url('../font/broadway.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Hygraphic';
-    src: url('../hygraphic.ttf') format('truetype'),
-    url('../hygraphic.woff2') format('woff2');
+    src: url('../font/hygraphic.ttf') format('truetype'),
+    url('../font/hygraphic.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
