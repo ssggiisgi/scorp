@@ -261,9 +261,10 @@
     }
     .about-sec1 .container .left h1,
     .about-sec2 .container .right h1{
-    font-size: 36px;
-    line-height: 2.4rem;
+    font-size: 2.2rem;
+    line-height: 2.3rem;
     margin-bottom: 22px;
+    letter-spacing: 0.02rem;
     }
     .about-sec1 .container .left p,
     .about-sec2 .container .right p{
@@ -306,8 +307,8 @@
     width: 100%;
     }
     .about-sec3 .container .left h1 {
-    font-size: 36px;
     margin:10px 0px 30px 0px;
+    font-size: 2.2rem;
     }
     .about-sec3 .content {
     text-align: left;
@@ -316,6 +317,9 @@
     .about-sec3 .container .left {
     order: 1;
     text-align: center;
+    }
+    .about-sec3 h2{
+        font-size: 1.4rem;
     }
     .about-sec3 .container .right {
     order: 2;

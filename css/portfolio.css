@@ -209,6 +209,16 @@
 }
 
 /*반응형*/
+@media (orientation: portrait){
+    .port-sec1 .container h1{
+        top:15%;
+    }
+    .port-sec1 .slant {
+    box-shadow: none;
+    background-size: 110%;
+    background-position:5% 34%;
+    }
+}
 @media (max-width:768px) {
     /* ======= popup ======= */
     .popupbox{

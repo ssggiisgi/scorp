@@ -34,7 +34,7 @@
     font-size:20px;
     font-family: "Hygraphic", sans-serif;
     font-weight: 600;
-    letter-spacing: -0.06rem;
+    letter-spacing: -0.04rem;
     margin:55px 0px 80px 0px ;
     line-height: 1.45;
 }
@@ -150,6 +150,17 @@
 }
 
 /*반응형*/
+  /* ======= ser-sec1 ======= */
+@media (orientation: portrait){
+    .ser-sec1 .container h1{
+        top:15%;
+    }
+    .ser-sec1 .slant {
+    box-shadow: none;
+    background-size: 110%;
+    background-position:5% 34%;
+    }
+}
 @media (max-width: 768px) {
 
   /* ======= ser-sec1 ======= */
@@ -165,14 +176,14 @@
     .ser-sec1 .container h1 {
     position: absolute;
     top:140px;
-    font-size: 38px;
+    font-size: 2.2rem;
     letter-spacing: 0rem;
     justify-self: center;
 }
     .ser-sec1 .text-box {
     font-size: 15px;
     text-align: center;
-    margin: 20px 0 45px;
+    margin: 25px 0 40px;
     }
 
   /* ======= ser-sec2 ======= */
