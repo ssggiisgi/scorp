@@ -8,9 +8,8 @@
 }
 @font-face {
     font-family: 'Hygraphic';
-    src: 
-    url('../font/hygraphic.woff2') format('woff2'),
-	url('../font/hygraphic.ttf') format('truetype');
+    src: url('../font/hygraphic.ttf') format('truetype'),
+    url('../Hygraphic.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -283,4 +282,3 @@ footer .links:hover{
     width: 45%;
     }
 }
-
