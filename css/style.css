@@ -1,13 +1,15 @@
 
 @font-face {
     font-family: 'Broadway';
-    src: url('../font/broadway.woff2') format('woff2');
+    src: url('../font/broadway.woff2') format('woff2'),
+    url('../font/broadway.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Hygraphic';
-    src: url('../font/Hygraphic.woff2') format('woff2');
+    src: url('../font/Hygraphic.woff2') format('woff2'),
+    url('../font/hygraphic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -271,6 +273,9 @@ footer .links:hover{
     .col h3{
         margin-bottom: 22px;
         justify-self: center;
+    }
+    .col h4{
+        font-weight:100;
     }
     .email-id{
         justify-self: center;

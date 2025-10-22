@@ -31,7 +31,7 @@
     align-self: center;
 }
 .home-sec1 .text-box h1{
-    font-family: 'Broadway', sans-serif;
+    font-family: 'Broadway', Arial;
     font-weight: 100;
     letter-spacing: 0.08rem;
     font-size:60px;
@@ -43,8 +43,7 @@
 .home-sec1 .text-box h2{
     font-size: 22px;
     margin-bottom: 6px;
-    font-family: 'Broadway', sans-serif;
-    font-weight: bold;
+    font-family: 'Broadway', Arial;
     letter-spacing: 0.08rem;
     color:#a4edcf;
 }
@@ -104,7 +103,7 @@
 }
 .home-sec2 .container .block h2{
     font-size:44px;
-    font-family: 'Broadway', sans-serif;
+    font-family: 'Broadway', Arial;
     font-weight: 200;
     letter-spacing: 0.1rem;
     margin-bottom: 22px;
@@ -113,7 +112,7 @@
 .home-sec2 .container .block p{
     font-size:16px;
     padding-bottom: 30px;
-    font-family:'Hygraphic', sans-serif;
+    font-family:'Hygraphic', Arial;
     font-weight: 600;
     display:inline-block;
     color: #4e5758;
