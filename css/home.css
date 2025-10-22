@@ -217,7 +217,7 @@
 /* home-sec1 반응형 */
 @media (orientation: portrait){
     .home-sec1 {
-    min-height: 70vh;
+    min-height: 75vh;
     }
 }
 @media (max-width: 768px) {
