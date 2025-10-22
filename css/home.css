@@ -104,7 +104,7 @@
 .home-sec2 .container .block h2{
     font-size:44px;
     font-family: 'Broadway', Arial;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 0.1rem;
     margin-bottom: 22px;
     color:#2e3334;
@@ -171,10 +171,10 @@
     align-self: center;
     font-weight: 600;
 }
-.home-sec3 .container .text-box h3{
+.home-sec3 .container .text-box h2{
     font-size:28px;
     margin-bottom: 20px;
-    letter-spacing: -0.1rem;
+    letter-spacing: -0.06rem;
     color:#2e3334;
     text-shadow:0px 0px 1px black ;
 }
@@ -231,10 +231,10 @@
 /*home-sec2 반응형*/
 @media (max-width: 768px) {
     .home-sec2{
-        padding:12% 0%;
+    padding:12% 0%;
     }
     .home-sec2 .container .block h2{
-        font-size: 2.2rem;
+    font-size: 2.0rem;
     }
     .home-sec2 .container .block-par1 {
     flex-direction: column;

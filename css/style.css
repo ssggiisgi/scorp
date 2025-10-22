@@ -274,11 +274,11 @@ footer .links:hover{
         margin-bottom: 22px;
         justify-self: center;
     }
-    .col h4{
-        font-weight:100;
-    }
     .email-id{
         justify-self: center;
+    }
+    footer p{
+        font-size: 13px;
     }
     .footer-port{
         padding:0px;
