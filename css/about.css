@@ -296,9 +296,9 @@
     order: 2;
     text-align: center;
     }
-    
     .about-sec2 .container .right strong{
-    text-shadow: 0px 0px 0px black;
+    color: #000000;
+    text-shadow: 0px 0px 1px #000000;
     }
   /* ---------- about-sec3 ---------- */
     .about-sec3 .container {
