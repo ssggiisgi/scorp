@@ -278,7 +278,7 @@
 @media (orientation: portrait){
     .tech-sec1 .container h1{
     top:15%;
-    font-size: 2rem;
+    font-size: 2.0rem;
     }
     .tech-sec1 .slant {
     box-shadow: none;
@@ -298,6 +298,7 @@
     background-position:5% 21%;
     }
     .tech-sec1 .container h1 {
+    font-weight: 50;
     position: absolute;
     top:140px;
     font-size: 2rem;
