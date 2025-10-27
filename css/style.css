@@ -195,6 +195,49 @@ footer .links:hover{
     font-size: 13.3px;
 }
 
+/*공통디자인*/
+.filter-menu {
+    display: flex;
+    background: #f0f0f0;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 3px 3px;
+}
+.container .filter-menu button{
+    font-size:16px;
+    font-family: "Hygraphic", sans-serif;
+    font-weight: 600;
+    color:#2e3334;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    text-align: center;
+}
+.container .filter-menu button:hover{
+    border-radius: 6px;
+    background: #e8e8e8;
+    z-index:1;
+    transition: 0.2s;
+}
+.container .filter-menu button.active{
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    z-index:1;
+}
+.container .filter-menu button + button {
+    position:relative;
+}
+.container .filter-menu button + button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 25%;
+    height: 50%;   /* 선의 길이를 줄임 (텍스트 영역만큼) */
+    width: 1.5px;
+    background: #cdcdcd;
+    z-index:0;
+}
 /* 모바일 */
 /*헤더*/
 .menu-btn {
@@ -256,7 +299,7 @@ footer .links:hover{
 /*푸터 반응형*/
 @media (max-width: 768px) {
     footer{
-        padding:12% 0px 12% 0px;
+        padding:13% 0px 13% 0px;
     }
     footer .row {
     flex-direction: column;
@@ -267,6 +310,7 @@ footer .links:hover{
     flex-basis: 100%;
     text-align: center;
     justify-items: center;
+    padding-top: 0;
     margin-bottom: 22px;
     }
     footer .logo,

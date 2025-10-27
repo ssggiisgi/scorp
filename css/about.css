@@ -6,7 +6,7 @@
 
 .about-sec1 .container {
     display: flex;
-    padding:14% 0% 8% 0%;
+    padding:15% 0% 8% 0%;
 }
 
 .about-sec1 .container .right{
@@ -237,7 +237,7 @@
 
   /* ---------- about-sec1 ---------- */
     .about-sec1 .container{
-        padding:28% 0% 0% 0%;
+        padding:32% 0% 0% 0%;
         flex-direction: column;
         margin-bottom:0px;
     }
@@ -271,12 +271,12 @@
     margin-bottom: 22px;
     }
     .about-sec1 .container .left button{
-    margin-top: 8px;
+    margin-top: 7px;
     width:210px;
     }
   /* ---------- about-sec2 ---------- */
     .about-sec2 .container{
-        padding:14% 0% 10% 0%;
+        padding:13% 0% 6% 0%;
         flex-direction: column;
     }
     .about-sec2 .container .left,
@@ -299,7 +299,7 @@
     }
   /* ---------- about-sec3 ---------- */
     .about-sec3 .container {
-    padding: 12% 0%;
+    padding: 13% 0% 10% 0%;
     flex-direction: column;
     }
     .about-sec3 .container .left,
@@ -307,7 +307,7 @@
     width: 100%;
     }
     .about-sec3 .container .left h1 {
-    margin:10px 0px 30px 0px;
+    margin-bottom: 30px;
     font-size: 2.0rem;
     }
     .about-sec3 .content {
@@ -319,7 +319,7 @@
     text-align: center;
     }
     .about-sec3 h2{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .about-sec3 .container .right {
     order: 2;

@@ -49,52 +49,13 @@
     padding: 6% 0% 6% 0%;
 }
 .ser-sec2 .filter-menu {
-    display: flex;
-    background: #f0f0f0;
-    border-radius: 12px;
-    overflow: hidden;
-    padding: 3px 3px;
     width:auto;
     margin-bottom: 40px;
 }
-
 .ser-sec2 .container button{
-    font-size:16px;
-    font-family: "Hygraphic", sans-serif;
-    font-weight: 600;
-    letter-spacing: -0.02rem;
-    color:#2e3334;
-    background: transparent;
     padding: 11px 0px 9px 0px;
-    text-align: center;
-    border: none;
-    cursor: pointer;
     width: 25%;
-}
-.ser-sec2 .container button:hover{
-    border-radius: 6px;
-    background: #e8e8e8;
-    z-index:1;
-    transition: 0.2s;
-}
-.ser-sec2 .container button.active{
-    border-radius: 12px;
-    background: white;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-    z-index:1;
-}
-.ser-sec2 .filter-menu button + button {
-    position:relative;
-}
-.ser-sec2 .filter-menu button + button::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 25%;
-    height: 50%;   /* 선의 길이를 줄임 (텍스트 영역만큼) */
-    width: 1.5px;
-    background: #cdcdcd;
-    z-index:0;
+    letter-spacing: -0.02rem;
 }
 .ser-sec2 .content-list{
     display: flex;
@@ -188,7 +149,7 @@
 
   /* ======= ser-sec2 ======= */
     .ser-sec2 {
-    padding: 12% 0;
+    padding: 13% 0 11% 0;
     }
     /* 필터 버튼 전체를 세로(column) 정렬 */
     .ser-sec2 .filter-menu {
@@ -202,7 +163,7 @@
     .ser-sec2 .filter-menu button {
     width: 100%;
     padding: 14px;
-    font-size: 15px;
+    font-size: 16px;
     border: none;
     background-color: #e3e3e3;
     border-radius: 6px;
@@ -223,10 +184,10 @@
     }
     .ser-sec2 .content {
     width: 100%;
-    margin-top: 30px;
+    margin: 30px 0px 13px 0px;
     }
     .ser-sec2 .content .text-box {
-    padding: 5% 3%;
+    padding: 5% 3% 0% 3%;
     }
     .ser-sec2 .content h3 {
     font-size: 18px;
@@ -235,8 +196,5 @@
     .ser-sec2 .content p {
     font-size: 15px;
     line-height: 1.6;
-    }
-    .ser-sec2 .content .img2{
-        margin: 30px 0px 10px 0px;
     }
 }

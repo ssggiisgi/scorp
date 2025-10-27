@@ -76,13 +76,13 @@
     width: 30px;
     height: 100%;
     background-color: #ffffff64;
-    animation: shiny-btn1 4s ease-in-out infinite;
+    animation: shiny-btn1 6s ease-in-out infinite;
 }
 
 @-webkit-keyframes shiny-btn1 {
     0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
-    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.6; }
-    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 0.9; }
+    30% { -webkit-transform: scale(2) rotate(45deg); opacity: 0.7; }
+    85% { -webkit-transform: scale(4) rotate(45deg); opacity: 0.9; }
     100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
 
@@ -115,52 +115,14 @@
 }
 
 .tech-sec2 .filter-menu {
-    display: flex;
-    background: #f0f0f0;
-    border-radius: 12px;
-    overflow: hidden;
-    padding: 3px 3px;
     width:auto;
     margin: 0px 0px 40px 0px;
 }
 
 .tech-sec2 .container button{
-    font-size:16px;
-    font-family: "Hygraphic", sans-serif;
-    font-weight: 600;
     letter-spacing: -0.02rem;
-    color:#2e3334;
-    background: transparent;
     padding: 9.5px;
-    text-align: center;
-    border: none;
-    cursor: pointer;
     width: 25%;
-}
-.tech-sec2 .container button:hover{
-    border-radius: 6px;
-    background: #e8e8e8;
-    z-index:1;
-    transition: 0.2s;
-}
-.tech-sec2 .container button.active{
-    border-radius: 12px;
-    background: white;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-    z-index:1;
-}
-.tech-sec2 .filter-menu button + button {
-    position:relative;
-}
-.tech-sec2 .filter-menu button + button::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 25%;
-    height: 50%;   /* 선의 길이를 줄임 (텍스트 영역만큼) */
-    width: 1.5px;
-    background: #cdcdcd;
-    z-index:0;
 }
 .tech-sec2 .content{
     background-color: white;
@@ -353,21 +315,21 @@
     .tech-sec1 button{
         text-align: center;
         padding:13px 0px;
-        width:150px;
+        width:9rem;
         margin:0;
-        font-size: 18px;
+        font-size: 16px;
     }
     /* ======= tech-sec2 ======= */
     .tech-sec2{
-    padding: 12% 0 0 0;
+    padding: 13% 0 0 0;
     }
     .tech-sec3{
-    padding: 12% 0 12% 0;
+    padding: 0% 0% 13% 0%;
     }
     .tech-sec2 .container .title,
     .tech-sec3 .container .title{
     font-size: 18px ;
-    margin: 0px 0px 18px 3px;
+    margin: 0px 0px 22px 3px;
     padding:0;
     }
     /* 필터 버튼 전체를 세로(column) 정렬 */
@@ -410,7 +372,7 @@
     .tech-sec2 .content,
     .tech-sec3 .content {
     width: 100%;
-    margin: 30px 0px 10px 0px;
+    margin-top: 30px;
     padding:6%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -418,7 +380,6 @@
     .tech-sec2 .tech-content,
     .tech-sec3 .tech-content{
     min-width: 800px;
-    font-size: 15px;
     white-space: nowrap;
     display: inline-block;
     }
@@ -426,8 +387,14 @@
     .tech-sec3 .content h3{
     font-size: 18px;
     }
+    .tech-sec2 .content p,
+    .tech-sec3 .content p,
+    .tech-sec2 .content .chart,
+    .tech-sec3 .content .chart{
+        font-size: 15px;
+    }
     .tech-sec2 .line{
-    margin: 15% 0px 0px 0px;
+    margin: 43px 0px 43px 0px;
     }
 }
 
