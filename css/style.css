@@ -265,6 +265,8 @@ footer .links:hover{
     justify-content: center;
     }
     footer .col {
+    display:flex;
+    flex-direction: column;
     flex-basis: 100%;
     text-align: center;
     justify-items: center;
@@ -287,9 +289,10 @@ footer .links:hover{
     footer p{
         font-size: 13px;
     }
-    .footer-port{
+    footer .footer-port{
         padding:0px;
         justify-content: center;
+        flex-direction: row;
     }
     .footer-port img {
     width: 45%;
