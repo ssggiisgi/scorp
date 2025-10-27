@@ -28,7 +28,7 @@
     position:absolute;
     top:25%;
     font-family: 'Broadway', sans-serif;
-    font-weight: 100;
+    font-weight: 50;
     letter-spacing: -0.08rem;
     font-size:66px;
 }
@@ -300,7 +300,7 @@
     .tech-sec1 .container h1 {
     position: absolute;
     top:140px;
-    font-size: 38px;
+    font-size: 2rem;
     letter-spacing: 0rem;
     justify-self: center;
 }

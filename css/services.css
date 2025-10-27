@@ -25,7 +25,7 @@
     position:absolute;
     top:25%;
     font-family: 'Broadway', sans-serif;
-    font-weight: 100;
+    font-weight: 50;
     letter-spacing: -0.08rem;
     font-size:66px;
 }
@@ -154,7 +154,6 @@
 @media (orientation: portrait){
     .ser-sec1 .container h1{
     top:15%;
-    font-size: 2rem;
     }
     .ser-sec1 .slant {
     box-shadow: none;
@@ -177,7 +176,7 @@
     .ser-sec1 .container h1 {
     position: absolute;
     top:140px;
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     letter-spacing: 0rem;
     justify-self: center;
 }
