@@ -1,15 +1,17 @@
-body{
-    overflow-x: hidden;
-}
+
 .home-sec1{
     margin-left: auto;
     margin-right: auto;
     display: flex;
     position: relative;
     min-height: 95vh;
+    max-width: 100%;
+    overflow: hidden;
 }
 .home-sec1 .container{
     align-self: center;
+    max-width: 100%;
+    overflow: hidden;
 }
 .home-sec1 .img-box{
     position:absolute;
@@ -94,6 +96,8 @@ body{
 
 .home-sec2{
     padding:7% 0%;
+    max-width: 100%;
+    overflow: hidden;
 }
 .home-sec2 .container .block-par1{
     display:flex;
@@ -159,6 +163,8 @@ body{
     background-size: auto, auto;
     width: 100%;
     padding: 2% 0%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .home-sec3 .container .port-block{

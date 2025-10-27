@@ -123,13 +123,52 @@
     width: 100%;
     padding: 6% 0% 8%  0%;
 }
-.port-sec2 .filter-menu {
+.filter-menu {
+    display: flex;
+    background: #f0f0f0;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 3px 3px;
     width:fit-content;
     margin-left: 20px;
 }
-.port-sec2 .container button{
+.container .filter-menu button{
+    font-size:16px;
+    font-family: "Hygraphic", sans-serif;
+    font-weight: 600;
+    color:#2e3334;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    text-align: center;
+    
     padding: 9.5px 28px;
     width:128px;
+}
+.container .filter-menu button:hover{
+    border-radius: 6px;
+    background: #e8e8e8;
+    z-index:1;
+    transition: 0.2s;
+}
+.container .filter-menu button.active{
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    z-index:1;
+}
+.container .filter-menu button + button {
+    position:relative;
+}
+.container .filter-menu button + button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 25%;
+    height: 50%;   /* 선의 길이를 줄임 (텍스트 영역만큼) */
+    width: 1.5px;
+    background: #cdcdcd;
+    z-index:0;
 }
 .port-sec2 .content-list{
     display: flex;
@@ -241,8 +280,9 @@
     .port-sec2 {
     padding: 13% 0 11% 0;
     }
+    
     /* 필터 버튼 전체를 세로(column) 정렬 */
-    .port-sec2 .filter-menu {
+    .container .filter-menu {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -250,7 +290,7 @@
     width: 100%;
     margin: 0 auto;
     }
-    .port-sec2 .filter-menu button {
+    .container .filter-menu button {
     width: 100%;
     padding: 13px;
     font-size: 16px;
@@ -260,11 +300,11 @@
     margin-bottom: 10px;
     transition: all 0.2s ease;
     }
-    .port-sec2 .filter-menu button:last-child {
+    .container .filter-menu button:last-child {
     margin-bottom: 0;
     }
   /* 버튼 사이 구분선 제거 */
-    .port-sec2 .filter-menu button + button::before {
+    .filter-menu button + button::before {
     display: none;
     }
   /* 콘텐츠: 1열 카드 */

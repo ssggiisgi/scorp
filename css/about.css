@@ -155,7 +155,6 @@
 .about-sec2 .container .right strong{
     text-shadow: 0px 0px 0px black;
 }
-
 .about-sec2 .container a{
     font-size:16px;
     font-family: "Montserrat", sans-serif;
@@ -296,6 +295,10 @@
     .about-sec2 .container .right {
     order: 2;
     text-align: center;
+    }
+    
+    .about-sec2 .container .right strong{
+    text-shadow: 0px 0px 0px black;
     }
   /* ---------- about-sec3 ---------- */
     .about-sec3 .container {
