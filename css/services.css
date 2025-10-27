@@ -153,7 +153,8 @@
   /* ======= ser-sec1 ======= */
 @media (orientation: portrait){
     .ser-sec1 .container h1{
-        top:15%;
+    top:15%;
+    font-size: 2rem;
     }
     .ser-sec1 .slant {
     box-shadow: none;

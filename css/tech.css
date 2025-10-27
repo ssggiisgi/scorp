@@ -195,7 +195,6 @@
     display:inline-block;
     text-shadow: 0px 0px 0px black;
 }
-
 .tech-sec2 .content p{
     line-height:1.5;            
 }
@@ -278,7 +277,8 @@
 /*반응형*/
 @media (orientation: portrait){
     .tech-sec1 .container h1{
-        top:15%;
+    top:15%;
+    font-size: 2rem;
     }
     .tech-sec1 .slant {
     box-shadow: none;
@@ -329,6 +329,9 @@
     .tech-sec3{
     padding: 0% 0% 13% 0%;
     }
+    .tech-sec3 .container{
+        padding-top: 43px;
+    }
     .tech-sec2 .container .title,
     .tech-sec3 .container .title{
     font-size: 18px ;
@@ -378,6 +381,7 @@
     padding:6%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    font-size: 15px;
     }
     .tech-sec2 .tech-content,
     .tech-sec3 .tech-content{
@@ -391,12 +395,14 @@
     }
     .tech-sec2 .content p,
     .tech-sec3 .content p,
-    .tech-sec2 .content .chart,
-    .tech-sec3 .content .chart{
+    .tech-sec2 .content th,
+    .tech-sec3 .content th,
+    .tech-sec2 .content td,
+    .tech-sec3 .content td{
         font-size: 15px;
     }
     .tech-sec2 .line{
-    margin: 43px 0px 43px 0px;
+    margin: 43px 0px 0px 0px;
     }
 }
 
