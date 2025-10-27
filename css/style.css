@@ -18,20 +18,16 @@
     padding:0;
     box-sizing:border-box;
 }
-
 a, a:link, a:visited{
     color:inherit;
     text-decoration:none;
 }
-
 li{
     list-style:none;
 }
-
 .container{
     margin: 0% 8%;
 }
-
 .icon {
     width: 1em;            /* 텍스트 크기에 맞춰 자동으로 조절 */
     height: 1em;
@@ -39,7 +35,6 @@ li{
     vertical-align: -0.125em;
     fill: currentColor;    /* 텍스트 색상에 따라 아이콘 색 변경 */
 }
-
 .motion {
 	opacity: 0;
 	transition: all 2s ease;
@@ -47,11 +42,9 @@ li{
 .motion.motion-left {
 	transform: translate(100px, 0);
 }
-
 .motion.motion-right {
 	transform: translate(-100px, 0);
 }
-
 .motion.show {
 	opacity: 1;
 	transform: none;

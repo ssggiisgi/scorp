@@ -226,20 +226,17 @@
 @media (orientation: portrait){
     .home-sec1 {
     min-height: 75vh;
-    width:100%;
     }
 }
+/*home-sec1&2 반응형*/
 @media (max-width: 768px) {
     .home-sec1 .text-box h1 {
-    font-size: 2.6rem;
+    font-size: 40px;
     margin-bottom: 11px;
     }
     .home-sec1 .text-box h2 {
     font-size: 22px;
     }
-}
-/*home-sec2 반응형*/
-@media (max-width: 768px) {
     .home-sec2{
     padding:13% 0%;
     }
@@ -256,6 +253,7 @@
     }
     .home-sec2 .container .block p{
         padding-bottom: 22px;
+        font-size: 16px;
     }
     .home-sec2 .container .item-list {
     flex-wrap: wrap;
@@ -278,8 +276,6 @@
     .home-sec3 .container .motion-left{
         margin-bottom: 43px;
     }
-    .home-sec3 .container .motion-right{
-    }
     .home-sec3 .container .text-box,
     .home-sec3 .container .img-box {
     width: 100%;
@@ -291,6 +287,7 @@
     }
     .home-sec3 .container .text-box p{
         margin-bottom: 22px;
+        font-size: 16px;
     }
     .home-sec3 .container .text-box a{
         display: none;
