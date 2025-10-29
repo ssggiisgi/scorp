@@ -201,6 +201,14 @@
 .tech-sec2 .content .text-top p{
     margin-top: 20px;
 }
+.tech-sec2 .content .img-box{
+    display: flex;
+    justify-content: space-between;
+}
+.tech-sec2 .content .img-box img{
+    width:49%;
+    border-radius: 15px;
+}
 .tech-sec2 .line{
     margin: 90px 0px 0px 0px;
     border-top: 1px dashed #a3a8a8;
