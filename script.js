@@ -87,7 +87,7 @@ window.addEventListener('load', saFunc);
 window.addEventListener('scroll', saFunc);
 
 // 모든 팝업 열기/닫기 관리
-for (let i = 1; i <= 8; i++) {
+for (let i = 1; i <= 11; i++) {
     const openBtn = document.querySelector(`.popup-o${i}`);
     const popupEl = document.querySelector(`.popup${i}`);
 
