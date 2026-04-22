@@ -2,23 +2,24 @@
 .popup{
     display: none; /*평소에는 보이지 않도록*/
     position: fixed;
-    top:0;
+    top:3rem;
     left: 0;
     bottom: 0;
     right: 0;
     background: rgba(0,0,0,0.5);
     z-index:2;
+    align-items: center;
+    justify-content: center;
 }
 .popup.on{
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .popupbox{
     padding: 30px;
     border-radius: 15px;
     background-image: linear-gradient(to right, rgb(240, 240, 240) 50%, white 50%);
-    width:100%;
+    width:90%;
+    height: 85%;
     max-width: 1200px;
     overflow-y: auto;
 }
